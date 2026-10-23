@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <rect width="256" height="256" fill="#0b0f0e"/>
+  <!-- faint scanline grid -->
+  <g stroke="#c9d6cf" stroke-width="0.5" opacity="0.06">
+    <line x1="0" y1="32" x2="256" y2="32"/>
+    <line x1="0" y1="64" x2="256" y2="64"/>
+    <line x1="0" y1="96" x2="256" y2="96"/>
+    <line x1="0" y1="128" x2="256" y2="128"/>
+    <line x1="0" y1="160" x2="256" y2="160"/>
+    <line x1="0" y1="192" x2="256" y2="192"/>
+    <line x1="0" y1="224" x2="256" y2="224"/>
+    <line x1="32" y1="0" x2="32" y2="256"/>
+    <line x1="64" y1="0" x2="64" y2="256"/>
+    <line x1="96" y1="0" x2="96" y2="256"/>
+    <line x1="128" y1="0" x2="128" y2="256"/>
+    <line x1="160" y1="0" x2="160" y2="256"/>
+    <line x1="192" y1="0" x2="192" y2="256"/>
+    <line x1="224" y1="0" x2="224" y2="256"/>
+  </g>
+  <!-- corner brackets -->
+  <g stroke="#39ff88" stroke-width="2" fill="none" opacity="0.7">
+    <polyline points="16,40 16,16 40,16"/>
+    <polyline points="216,16 240,16 240,40"/>
+    <polyline points="240,216 240,240 216,240"/>
+    <polyline points="40,240 16,240 16,216"/>
+  </g>
+  <!-- tangled wire knot resolving into single strand -->
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- outer tangled loops (paranoid knot) -->
+    <path d="M60 180 C40 140, 50 90, 90 80 C120 72, 140 100, 130 120 C122 138, 100 140, 92 128 C84 116, 96 100, 112 104"
+          stroke="#c9d6cf" stroke-width="3" opacity="0.55"/>
+    <path d="M70 190 C60 160, 70 120, 100 110 C120 102, 136 118, 128 134 C122 146, 108 142, 104 132"
+          stroke="#c9d6cf" stroke-width="2.5" opacity="0.45"/>
+    <path d="M150 90 C170 70, 200 78, 205 100 C210 122, 186 136, 172 128"
+          stroke="#c9d6cf" stroke-width="2.5" opacity="0.45"/>
+    <!-- converging strokes -->
+    <path d="M112 104 C130 96, 148 100, 158 118 C168 136, 162 158, 148 168"
+          stroke="#39ff88" stroke-width="3" opacity="0.8"/>
+    <path d="M104 132 C118 140, 128 158, 122 178"
+          stroke="#39ff88" stroke-width="2.5" opacity="0.7"/>
+    <path d="M172 128 C186 140, 190 162, 176 182"
+          stroke="#39ff88" stroke-width="2.5" opacity="0.7"/>
+    <!-- resolving clean single strand -->
+    <path d="M148 168 C140 176, 132 180, 122 178 C116 176, 112 170, 116 162 C120 154, 130 154, 134 162"
+          stroke="#39ff88" stroke-width="3.5"/>
+    <path d="M134 162 C140 170, 148 172, 156 166 C166 158, 168 146, 160 138"
+          stroke="#39ff88" stroke-width="3.5"/>
+    <path d="M160 138 C168 130, 178 132, 182 142 C186 152, 178 160, 170 158"
+          stroke="#39ff88" stroke-width="3"/>
+    <!-- terminal node dot -->
+    <circle cx="170" cy="158" r="4" fill="#39ff88" stroke="none"/>
+    <circle cx="170" cy="158" r="7" fill="none" stroke="#39ff88" stroke-width="1" opacity="0.4"/>
+  </g>
+  <!-- cut/tangle cross accents -->
+  <g stroke="#ff5c3a" stroke-width="2" stroke-linecap="round" opacity="0.85">
+    <line x1="58" y1="108" x2="72" y2="104"/>
+    <line x1="62" y1="118" x2="76" y2="114"/>
+    <line x1="186" y1="94" x2="198" y2="102"/>
+  </g>
+  <!-- node glyph marks -->
+  <circle cx="90" cy="80" r="3" fill="#c9d6cf" opacity="0.7"/>
+  <circle cx="205" cy="100" r="3" fill="#c9d6cf" opacity="0.7"/>
+  <circle cx="100" cy="110" r="2.5" fill="#c9d6cf" opacity="0.5"/>
+  <!-- tiny wordmark -->
+  <text x="128" y="234" font-family="monospace" font-size="9" letter-spacing="3"
+        fill="#c9d6cf" text-anchor="middle" opacity="0.5">MULTI-OBFUSCATOR</text>
+</svg>
